@@ -1,0 +1,95 @@
+* {
+  margin : 0;
+  padding : 0;
+  box-sizing : border-box;
+}
+body{
+   height : 100%;
+   width : 100%;
+   /* font-family: 'Poppins', sans-serif; */
+}
+ 
+.mainDiv{
+    height: 400px;
+    width: 95vw;
+    background-color: black;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 12px;
+
+}
+.mainText{
+    padding: 20px;
+    color: white;
+    text-align: center;
+    
+   font-size: 50px;
+    color: white;
+
+}
+.mainText:hover{
+    color: #FFE140;
+    cursor: pointer;
+    transition-duration: 2s;
+}
+.buttons{
+  
+    /* margin-left: 200px ; */
+}
+button{
+   
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.loadSaved{
+    margin-left: 150px;
+    margin-top: 20px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #04AA6D;
+}
+.loadNew{
+    margin-left: 50%;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #04AA6D;
+}
+button:hover{
+    background-color: #04AA6D;
+  color: white;
+ transform: scale(0.96);
+}
+.nextText{
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 35px;
+    cursor: pointer;
+
+}
+.stay{
+    text-align: center;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+.stay:hover{
+    color: #FFE140;
+    transform: scale(1.5);
+    transition: 1.5s;
+}
+.nextText:hover{
+    color: #FFE140;
+    transform: scale(1.2);
+  
+}
